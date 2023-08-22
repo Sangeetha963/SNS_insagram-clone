@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientCurrentUserGuard should be success verify 1`] = `
+{
+  "headers": {
+    "authorization": Any<String>,
+  },
+  "jwtPayload": {
+    "aud": Any<Array>,
+    "exp": Any<Number>,
+    "iat": Any<Number>,
+    "iss": Any<String>,
+    "sub": "AccessToken",
+    "uuid": Any<String>,
+  },
+}
+`;
